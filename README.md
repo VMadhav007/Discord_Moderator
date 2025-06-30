@@ -15,11 +15,14 @@ A powerful Discord bot that uses ML to detect and moderate toxic language in you
  1️⃣ Clone the Repository
     git clone https://github.com/VMadhav007/Discord_Moderator.git
     cd DiscordModerator
+    
  2️⃣ Set Up Virtual Environment
     python -m venv venv  
     source venv/bin/activate   On Windows, use venv\Scripts\activate
+    
  3️⃣ Install Dependencies
     pip install -r requirements.txt
+    
  4️⃣ Configure Environment Variables
 Create a .env file in the root directory and add your Discord bot token:
     DISCORD_ID=your-bot-token
